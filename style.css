@@ -1,0 +1,136 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* header */
+.navbar {
+  height: 700px;
+  background-image: url(/Developer-s-Landing-Page/image/cover.jpg);
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #31304d;
+}
+.heromsg {
+  height: 150px;
+  background-color: #161a30;
+  color: #ffffff;
+  display: grid;
+  align-content: center;
+}
+.heromsg h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.heromsg p {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+/* main */
+.backgrnd {
+  height: 550px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #f0ece5;
+}
+.box {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+}
+.box :hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.3);
+  transition: 0.3s ease-in-out;
+}
+.img {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  margin: 0.2rem;
+}
+.img:hover {
+  opacity: 0.9;
+}
+
+.para h2 {
+  font-weight: 900;
+  display: flex;
+  color: #ffffff;
+  justify-content: flex-start;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 10%;
+  text-shadow: 5px 5px 10px #4f4e4e;
+}
+.disc {
+  font-weight: 500;
+  height: 30px;
+  width: auto;
+  color: #ffffff;
+  display: block;
+  position: relative;
+  margin: 1rem;
+  margin-left: 10%;
+  text-shadow: 5px 5px 10px #6f6868;
+}
+/* footer */
+.myself {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: #31304d;
+  padding: 30px;
+  color: #ffffff;
+}
+.contact {
+  width: 50%;
+  height: 150px;
+  display: grid;
+  align-items: start;
+}
+.contact h1 {
+  display: grid;
+  align-items: start;
+  justify-content: start;
+  font-size: calc(50px);
+  font-weight: 900;
+}
+.contact a {
+  color: #ffffff;
+}
+.aboutme {
+  height: 150px;
+  width: 50%;
+  display: grid;
+  align-items: start;
+}
+.aboutme h1 {
+  display: grid;
+  align-items: start;
+  justify-content: start;
+  font-size: calc(50px);
+  font-weight: 900;
+}
+.end {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px);
+  font-weight: 900;
+  background-color: #161a30;
+  color: #f0ece5;
+}
